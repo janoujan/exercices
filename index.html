@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tableaux</title>
+  </head>
+  <body>
+    <script>
+      
+      /*
+      for(let i = 0;i < dataToSum.length; i++) {
+        sum += dataToSum[i];
+      }
+      */
+         
+         /*
+         for (num of dataToSum) {
+           // additionner sum avec num
+           sum += num;
+          }*/
+          
+          /*       
+          dataToSum.forEach(function(num) {
+            sum += num
+          })
+          */
+     
+          function arraySum(dataToSum) {
+           let sum = 0;
+         
+         dataToSum.forEach(num => sum += num);
+         
+         return sum;
+        }
+        
+        <!-- const data = [1, 10, 200, 3000];
+          const sum = arraySum(data);
+      console.info('résultat', sum);
+       -->
+    </script>
+  </body>
+</html>
