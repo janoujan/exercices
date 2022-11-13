@@ -4,18 +4,14 @@
 'use strict'
 
 let myArray = [
-    [1, 1, 1, 1, 1],
-    [2, 2, 2, 2],
-    [3, 3, 3],
-    [4, 4,[4, ['']]]];
+  [1, 1, 1, 1, 1],
+  [2, 2, 2, 2],
+  [3, 3, 3],
+  [4, 4[4, ['']]]];
 
-//une fonction qui prend en parametre un tableau
+// une fonction qui prend en parametre un tableau
 // et affiche son contenu dans la console sous forme de carré
 
-let square = (arr) => arr.flat(Infinity)
- 
+let square = (arr) => arr.flat(Infinity).slice(0, 4);
 
 console.log(square(myArray));
-    
-
- 
