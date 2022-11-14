@@ -13,13 +13,9 @@ let MyArray = [
 const sum = (arr) => {
   let i;
   let sum = 0;
-  if (arr[i] === Number) {
     for (i = 0; i < arr.length; ++i) {
       sum = sum + arr[i].reduce(function (accumulator, currentValue) { return accumulator + currentValue; }, 0);
     }
     return sum;
-  } else {
-    return null
-  }
 }
 console.log(sum(MyArray));
