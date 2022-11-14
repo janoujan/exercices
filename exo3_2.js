@@ -1,5 +1,5 @@
 // Demandez  à  l’utilisateur  de  saisir  un  nombre  X  compris  entre  3  et  10.
-let num = prompt("entrez un nombre entre 3 et 10");
+let num = 8 //prompt("entrez un nombre entre 3 et 10");
 const case = "_";
 const obstacle = "#";
 if (num <= 3 && num >= 10) {
